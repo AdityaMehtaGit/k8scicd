@@ -1,5 +1,5 @@
 pipeline {
-    agent master
+    agent any
     environment {
         registry = "magalixcorp/k8scicd"
         GOCACHE = "/tmp"
